@@ -20,7 +20,17 @@ $F=-Q(e_0)(x_0,x_1,x_2,x_3)^T$($4\times3$, then add force to four vertices).
 
 ### stretching force
 
-deformation gradient $F=(w_u,w_v)=(\frac{\partial x}{\partial u}, \frac{\partial x}{\partial v})=(\begin{matrix} x_i& x_j & x_k \end{matrix})\frac{1}{det}(\begin{matrix} \Delta v_1-\Delta v_2& \Delta u_2-\Delta u_1 \\ \Delta v_2 & -\Delta u_2 \\ -\Delta v_1 & \Delta u_1 \end{matrix})$
+
+
+<img src="C:\Users\thinkpad\Pictures\图片1.png" title="" alt="图片1.png" width="444">
+
+deformation gradient $F=(w_u,w_v)=(\frac{\partial x}{\partial u}, \frac{\partial x}{\partial v})$
+
+$Dm=(u_2-u1, u3-u1)$      2*2
+
+$invDm = Dm^{-1}$
+
+$F = (x_2-x_1, x_3-x_1) invDm$     3*2
 
 Green strain tensor $G=(F'F-I)/2=(\begin{matrix} (w_u^2-1)/2 & w_uw_v/2 \\ w_uw_v/2 & (w_v^2-1)/2 \end{matrix})$
 
