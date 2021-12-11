@@ -32,7 +32,7 @@ $F = (x_2-x_1, x_3-x_1) invDm$ 3*2
 
 Green strain tensor $G=(F'F-I)/2=(\begin{matrix} (w_u^2-1)/2 & w_uw_v/2 \\ w_uw_v/2 & (w_v^2-1)/2 \end{matrix})$
 
-Energy通过Green strain tensor计算:
+Energy is calculated by Green strain tensor:
 
 $E= \mu G:G+\lambda/2 tr^2(G)$
 
