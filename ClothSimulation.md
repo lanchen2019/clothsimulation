@@ -48,13 +48,13 @@ $x_{t+1} = x_t + v_{t+1}*\Delta t$
 
 $\frac{\partial v_{t+1}}{\partial t} = (v_{t+1}-v_t)/\Delta t$
 
-泰勒展开
+taylor series
 
 $F(x_{t+1})=F(x_t)+F'(x_t)v_{t+1}*\Delta t$
 
 $M(v_{t+1}-v_t)/\Delta t = -F(x_t)-F'(x_t)v_{t+1}*\Delta t+f_{ext}$
 
-$(M+F'(x_t)*\Delta t^2)v_{t+1}=-F(x_t)\Delta t+Mv_t+f_{ext}*\Delta t$
+$(M+F'(x_t)* \Delta t^2)v_{t+1}=-F(x_t)\Delta t+Mv_t+f_{ext}* \Delta t$
 
 ## linear solver
 
