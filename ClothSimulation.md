@@ -63,7 +63,7 @@ PCG
 ## collision
 
 ## update
-
+$x_{t+1} = x_t + v_{t+1}*\Delta t$
 # Houdini Learning
 
 ## Draping cloth with 5 different materials
